@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import awalogo from "./assets/awalogo.jpg";
 import "./Header.css";
 
 const UrgencyBar = () => (
@@ -16,7 +17,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <img src="/awalogo.jpg" alt="Dentist Team Logo" className="logo-img" />
+            <img src={awalogo} alt="Dentist Team Logo" className="logo-img" />
             <span>Dentist Team</span>
           </div>
           <button className="menu-icon" onClick={() => setMenuOpen((v) => !v)} aria-label="Abrir menú">
