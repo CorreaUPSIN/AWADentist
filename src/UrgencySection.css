@@ -1,0 +1,82 @@
+.urgency-section {
+  background: linear-gradient(135deg, #dc2626, #dc2626);
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.urgency-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.urgency-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.countdown-item {
+  background: rgba(255,255,255,0.2);
+  padding: 1rem;
+  border-radius: 10px;
+  min-width: 80px;
+}
+
+.countdown-item .number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.countdown-item .label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.btn-urgency {
+  background: white;
+  color: #dc2626;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.btn-urgency:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+@media (max-width: 768px) {
+  .countdown {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .urgency-content h2 {
+    font-size: 1.5rem;
+  }
+  .countdown {
+    gap: 1rem;
+  }
+  .countdown-item {
+    min-width: 60px;
+    padding: 0.75rem;
+  }
+  .countdown-item .number {
+    font-size: 1.5rem;
+  }
+} 
