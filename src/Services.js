@@ -1,13 +1,9 @@
 import React from "react";
-import AlfredoOE from "./../public/AlfredoOE.jpg";
-import AprilIRB from "./../public/AprilIRB.jpg";
-import CaroOPD from "./../public/CaroOPD.jpg";
-import ItzelCD from "./../public/ItzelCD.jpg";
 import "./Services.css";
 
 const services = [
   {
-    img: AlfredoOE,
+    img: "/AlfredoOE.jpg",
     title: "Implantes Dentales",
     oldPrice: "$3,500 USD",
     newPrice: "$1,200 USD",
@@ -21,7 +17,7 @@ const services = [
     link: "https://api.whatsapp.com/send?phone=16195868226&text=Hola!%20Quiero%20información%20sobre%20implantes%20%F0%9F%A6%B7",
   },
   {
-    img: AprilIRB,
+    img: "/AprilIRB.jpg",
     title: "Ortodoncia Invisible",
     oldPrice: "$4,500 USD",
     newPrice: "$1,800 USD",
@@ -34,7 +30,7 @@ const services = [
     link: "https://api.whatsapp.com/send?phone=16195868226&text=Hola!%20Quiero%20información%20sobre%20ortodoncia%20%F0%9F%A6%B7",
   },
   {
-    img: CaroOPD,
+    img: "/CaroOPD.jpg",
     title: "Blanqueamiento Profesional",
     oldPrice: "$800 USD",
     newPrice: "$150 USD",
@@ -47,7 +43,7 @@ const services = [
     link: "https://api.whatsapp.com/send?phone=16195868226&text=Hola!%20Quiero%20información%20sobre%20blanqueamiento%20%F0%9F%A6%B7",
   },
   {
-    img: ItzelCD,
+    img: "/ItzelCD.jpg",
     title: "Cirugía Oral",
     oldPrice: "$2,500 USD",
     newPrice: "$800 USD",

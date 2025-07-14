@@ -1,14 +1,9 @@
 import React from "react";
-import AlfredoOE from "./../public/AlfredoOE.jpg";
-import AprilIRB from "./../public/AprilIRB.jpg";
-import CaroOPD from "./../public/CaroOPD.jpg";
-import ItzelCD from "./../public/ItzelCD.jpg";
-import WilfredoOE from "./../public/WilfredoOE.jpg";
 import "./Specialists.css";
 
 const specialists = [
   {
-    img: AlfredoOE,
+    img: "/AlfredoOE.jpg",
     name: "Dr. Alfredo OE",
     specialty: "Especialista en Implantes",
     credentials: [
@@ -20,7 +15,7 @@ const specialists = [
     btn: "Agendar con Dr. Alfredo",
   },
   {
-    img: AprilIRB,
+    img: "/AprilIRB.jpg",
     name: "Dra. April IRB",
     specialty: "Ortodoncista",
     credentials: [
@@ -32,7 +27,7 @@ const specialists = [
     btn: "Agendar con Dra. April",
   },
   {
-    img: CaroOPD,
+    img: "/CaroOPD.jpg",
     name: "Dra. Caro OPD",
     specialty: "Odontopediatra",
     credentials: [
@@ -44,7 +39,7 @@ const specialists = [
     btn: "Agendar con Dra. Caro",
   },
   {
-    img: ItzelCD,
+    img: "/ItzelCD.jpg",
     name: "Dra. Itzel CD",
     specialty: "Cirujana Oral",
     credentials: [
@@ -56,7 +51,7 @@ const specialists = [
     btn: "Agendar con Dra. Itzel",
   },
   {
-    img: WilfredoOE,
+    img: "/WilfredoOE.jpg",
     name: "Dr. Wilfredo OE",
     specialty: "Estética Dental",
     credentials: [

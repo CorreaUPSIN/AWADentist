@@ -1,9 +1,8 @@
 import React from "react";
-import heroImg from "./../public/hero.jpg";
 import "./Hero.css";
 
 const Hero = () => (
-  <div className="imghero" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${heroImg})` }}>
+  <div className="imghero" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/hero.jpg)` }}>
     <section className="hero">
       <div className="hero-content">
         <div className="hero-badge">⭐ 4.9/5 Estrellas - 500+ Pacientes Satisfechos</div>
